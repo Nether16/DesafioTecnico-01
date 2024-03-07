@@ -55,6 +55,7 @@ class DesafioTecnico {
                 float seguinovos = (new Random()).Next();
                 double porcentagem = (seguinovos/ seguidores)*100;
                 Console.WriteLine($"Voce Ganhou {seguinovos} seguidores novos, Isso é {porcentagem}% mais seguidores");
+                seguidores += seguinovos;
             break;
         }
         Console.WriteLine("");
